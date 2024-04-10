@@ -22,4 +22,23 @@ print(phones)
 phones["ria"]=9098923751
 print(phones)
 
+#add a new dictionary to old dictionary
+phones_1={
+    "ram":56895213,
+    "krish":13743242,
+    "jay":13456231453
+}
+phones.update(phones_1)
+print(phones)
 
+#remove a key value
+phones.pop("ashu")
+print(phones)
+
+#remove last key value
+phones.popitem()
+print(phones)
+
+#empty the dictionary
+phones.clear()
+print(phones.items())
