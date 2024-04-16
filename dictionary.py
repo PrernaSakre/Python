@@ -1,8 +1,8 @@
 phones= {
-    "ashu" :9926731196,
-    "prerna" : 9303946824,
-    "pranay" : 9575412730,
-    "papa" : 7974129883
+    "ashu" :99,
+    "prerna" : 93,
+    "pranay" : 95,
+    "papa" : 79
 }
 print(type(phones))    #type
 print(len(phones))     #to find the length
@@ -15,18 +15,18 @@ print("the sum of all key value is: ",sum(phones.values()))
 
  
 #change the value
-phones["ashu"]=7828183347
+phones["ashu"]=78
 print(phones)
 
 #add new keys and value
-phones["ria"]=9098923751
+phones["ria"]=90
 print(phones)
 
 #add a new dictionary to old dictionary
 phones_1={
-    "ram":56895213,
-    "krish":13743242,
-    "jay":13456231453
+    "ram":56,
+    "krish":13,
+    "jay":45
 }
 phones.update(phones_1)
 print(phones)
